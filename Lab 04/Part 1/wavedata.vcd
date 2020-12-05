@@ -1,0 +1,48 @@
+$date
+	Fri Sep 11 05:44:25 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 8 ! result [0:7] $end
+$var reg 3 " aluopp [0:2] $end
+$var reg 8 # operand1 [0:7] $end
+$var reg 8 $ operand2 [0:7] $end
+$scope module myalu $end
+$var wire 8 % DATA1 [0:7] $end
+$var wire 8 & DATA2 [0:7] $end
+$var wire 3 ' SELECT [0:2] $end
+$var reg 8 ( RESULT [0:7] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10011001 (
+b0 '
+b10011001 &
+b1111 %
+b10011001 $
+b1111 #
+b0 "
+b10011001 !
+$end
+#10
+b10101000 !
+b10101000 (
+b1 "
+b1 '
+#20
+b1001 !
+b1001 (
+b10 "
+b10 '
+#30
+b10011111 !
+b10011111 (
+b11 "
+b11 '
